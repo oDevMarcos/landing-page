@@ -194,3 +194,25 @@ p {
   padding: 5px 20px;
   align-self: flex-end;
 }
+
+/* footer  */
+
+.footer-color {
+  background-color: #1f2937;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.copyright {
+  color: white;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: underline;
+}
