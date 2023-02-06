@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1000px;
+  background-color: #eee;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #1f2937;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.second-text-link,
+a:link {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
