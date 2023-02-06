@@ -11,6 +11,11 @@
 
 /* header */
 
+.header-color {
+  height: auto;
+  padding-bottom: 150px;
+}
+
 .header-color,
 header,
 .presentation {
@@ -44,3 +49,45 @@ a:link {
 }
 
 /* presentation section 01 */
+
+.presentation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.left-presentation-info {
+  width: 500px;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.main-text-presentation {
+  align-self: flex-start;
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.second-text-link {
+  margin-bottom: 10px;
+}
+
+.right-presentation-image {
+}
+
+.placeholder-image {
+  padding: 100px 200px;
+  background-color: #eee;
+  text-align: center;
+}
+.button-Sign-up {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
