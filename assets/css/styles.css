@@ -133,4 +133,32 @@ p {
 }
 
 /* quote section 03 */
-/* TODO QUOTE SECTION */
+.quote-color {
+  background-color: #e5e7eb;
+}
+
+.container-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+.centralized-quote {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 650px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.by {
+  display: flex;
+  justify-self: flex-end;
+  font-weight: bold;
+  font-size: 20px;
+}
