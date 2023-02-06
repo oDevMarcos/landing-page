@@ -12,7 +12,7 @@
 /* header */
 
 .header-color {
-  height: auto;
+  display: block;
   padding-bottom: 150px;
 }
 
